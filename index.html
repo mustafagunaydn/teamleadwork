@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+
+<body>
+    <h1>Checkout</h1>
+    <h1>Contact information</h1>
+    <div>
+        <label for="Email">Email</label>
+        <br>
+        <input type="text" name="Email" id="Name" placeholder="Enter Your Email...">
+        <i class="fa-solid fa-envelope"></i>
+        <br>
+        <label for="Phone">Phone</label>
+        <br>
+        <input type="text" name="Phone" id="Phone" placeholder="Enter Your Phone...">
+        <i class="fa-solid fa-phone"></i>
+    </div>
+    <h1>Shipping Address</h1>
+    <div>
+        <label for="Name">Full Name</label>
+        <br>
+        <input type="text" name="Name" id="Name" placeholder="Enter your Full name...">
+        <i class="fa-solid fa-user"></i>
+    </div>
+    <div>
+        <label for="">Address</label>
+        <br>
+        <input type="text" name="Address" id="Address" placeholder="Enter your address...">
+        <i class="fa-solid fa-house"></i>
+        <br>
+        <label for="City">City</label>
+        <br>
+        <input type="text" name="City" id="City" placeholder="Enter your city...">
+        <i class="fa-solid fa-city"></i>
+        <br>
+        <label for="Country">Country</label>
+        <br>
+        <select name="Country" id="user country">
+            <option value="Turkey">Turkey</option>
+            <option value="Turkey">Germany</option>
+            <option value="Turkey">U.S.A</option>
+            <option value="Turkey">CANADA</option>
+            <option value="Turkey">U.K</option>
+        </select>
+        <i class="fa-solid fa-earth-americas"></i>
+        <br>
+        <label for="Post Code">Post Code</label>
+        <br>
+        <input type="text" name="Post Code" id="PostCode" placeholder="Enter your postal code">
+        <i class="fa-solid fa-envelopes-bulk"></i>
+        <br>
+        <input type="checkbox" name="Checkbox" id="Checkbox">
+        <label for="checkbox">See this information next time</label>
+        <br>
+        <button type="submit">Continue</button>
+    </div>
+    <div class="pictures1">
+        <img src="images/photo1.png" alt="">
+        <h2>Vintage Backbag</h2>
+        <p>
+            <strong>$54.99</strong>
+            <s>$94.99</s>
+        </p>
+        <div class="button1">
+            <button>
+                <i class="fas fa-minus" aria-hidden="true"></i>
+            </button>
+            <p>1</p>
+            <button>
+                <i class="fas fa-plus" aria-hidden="true"></i>
+            </button>
+        </div>
+    </div>
+    <div class="pictures2">
+        <img src="images/photo2.png" alt="">
+        <h2>Levi Shoes</h2>
+        <p>
+            <strong>$74.99</strong>
+            <s>$124.99</s>
+        </p>
+        <div class="button2">
+            <button>
+                <i class="fas fa-minus" aria-hidden="true"></i>
+            </button>
+            <p>1</p>
+            <button>
+                <i class="fas fa-plus" aria-hidden="true"></i>
+            </button>
+    </div>
+    <div class="buy-detail" id="shipping">
+        <p>Shipping</p>
+        <p>$19</p>
+    </div>
+    <div class="buy detail" id="total">
+        <p>Total</p>
+        <p>$148.99</p>
+    </div>
+</body>
+
+</html>
